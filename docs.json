@@ -11,7 +11,69 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "docs/introduction/overview/what-is",
+                  "docs/introduction/overview/getting-started"
+                ]
+              },
+              {
+                "group": "Setup",
+                "pages": [
+                  "docs/introduction/setup/installation",
+                  "docs/introduction/setup/configuration"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              {
+                "group": "Basic",
+                "pages": [
+                  "docs/guides/basic/usage",
+                  "docs/guides/basic/examples"
+                ]
+              },
+              {
+                "group": "Advanced",
+                "pages": [
+                  "docs/guides/advanced/performance",
+                  "docs/guides/advanced/best-practices"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              {
+                "group": "Endpoints",
+                "pages": [
+                  "docs/api/endpoints/resource",
+                  "docs/api/endpoints/authentication"
+                ]
+              },
+              {
+                "group": "Reference",
+                "pages": [
+                  "docs/api/reference/models",
+                  "docs/api/reference/errors"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Original Content",
         "groups": [
           {
             "group": "Get Started",
@@ -31,21 +93,11 @@
               "essentials/navigation",
               "essentials/reusable-snippets"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "API Reference",
             "pages": [
+              "api-reference/introduction",
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
@@ -54,26 +106,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
